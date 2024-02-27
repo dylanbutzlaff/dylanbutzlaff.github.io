@@ -8,3 +8,8 @@ const timeOfDay = document.querySelector('#welcome')
 if(isMorning) timeOfDay.textContent = 'Good Morning!'
 if(isAfternoon) timeOfDay.textContent = 'Good Afternoon!'
 if(isEvening) timeOfDay.textContent = 'Good Evening!'
+
+const key = "It's a secret to everybody."
+let value = "Here's your blue rupee!"
+
+localStorage.setItem(key, value)
